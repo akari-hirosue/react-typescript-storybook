@@ -8,5 +8,5 @@ export function useWindowEvent<K extends keyof WindowEventMap>(
   useEffect(() => {
     window.addEventListener(type, listener, options);
     return () => window.removeEventListener(type, listener, options);
-  }, []);
+  });
 }

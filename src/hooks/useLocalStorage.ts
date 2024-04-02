@@ -2,19 +2,10 @@ import { useState, useCallback, useEffect } from "react";
 import { useWindowEvent } from "./useWindowEvent";
 
 interface UseLocalStorage<T> {
-  /** Local storage key */
   key: string;
-
-  /** Default value that will be set if value is not found in local storage */
   defaultValue: T;
-
-  /** If set to true, value will be update is useEffect after mount */
   getInitialValueInEffect?: boolean;
-
-  /** Function to serialize value into string to be save in local storage */
   serialize?(value: T): string;
-
-  /** Function to deserialize string value from local storage to value */
   deserialize?(value?: string): T;
 }
 
