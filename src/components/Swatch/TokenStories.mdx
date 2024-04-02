@@ -1,0 +1,21 @@
+import { Meta, Story, Canvas } from "@storybook/addon-docs";
+import * as TokenStories from "./index.stories";
+import { CssPropsBlock } from "../CssPropsBlock";
+
+<Meta of={TokenStories} />
+
+# TokenStories Example
+
+<CssPropsBlock />
+
+## Primitive TokenStories
+
+<Canvas of={TokenStories.PrimitiveStory}></Canvas>
+
+## Semantic TokenStories
+
+<Canvas of={TokenStories.SemanticStory}></Canvas>
+
+## Size TokenStories
+
+<Canvas of={TokenStories.SizeStory}></Canvas>

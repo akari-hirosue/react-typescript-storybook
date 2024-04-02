@@ -1,0 +1,59 @@
+:root {
+  --red: #e55779;
+  --white: #ffffff;
+  --black-100: #2f4136;
+  --black-20: #99b6ab;
+  --black-30: #8aa69b;
+  --black-5: #ccddd6;
+  --black-50: #6c867b;
+  --green-5: #f4faf7;
+  --green-10: #e9f3ef;
+  --green-20: #d3e7df;
+  --green-30: #bddbd0;
+  --green-40: #aed2c4;
+  --green-50: #93c2b0;
+  --green-60: #7cb6a0;
+  --green-70: #68aa91;
+  --green-80: #539e81;
+  --green-90: #3d9271;
+  --green-100: #248661;
+  --green-110: #2c6d54;
+
+  --size-4: 0.25rem;
+  --size-8: 0.5rem;
+  --size-16: 1rem;
+  --size-24: 1.5rem;
+  --size-32: 2rem;
+  --size-40: 2.5rem;
+  --size-48: 3rem;
+  --size-56: 3.5rem;
+  --size-80: 5rem;
+
+  --button-disabled: var(--green-80);
+  --button-primary: var(--green-100);
+
+  --color-actionmenu: var(--green-100);
+  --color-active-background: var(--green-30);
+  --color-active-line: var(--green-60);
+  --color-background: var(--green-10);
+  --color-delete: var(--red);
+  --color-dropshadow-dark: #00170e66;
+  --color-dropshadow-light: #21715366;
+  --color-hover: var(--green-20);
+  --color-input: var(--green-5);
+  --color-line: var(--green-40);
+
+  --icon-disabled: var(--green-30);
+  --icon-primary: var(--green-100);
+  --icon-secondary: var(--green-50);
+  --icon-tertiary: var(--text-tertiary);
+  --icon-white: var(--white);
+
+  --text-disabled: var(--black-50);
+  --text-green: var(--green-100);
+  --text-placeholder: var(--black-30);
+  --text-primary: var(--black-100);
+  --text-secondary: var(--green-30);
+  --text-tertiary: var(--black-20);
+  --text-white: var(--white);
+}
